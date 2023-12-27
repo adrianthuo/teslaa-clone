@@ -37,8 +37,7 @@ function Home() {
             rightBtnText="Existing inventory"/>
 
             <Section
-              title="Cybertruck"
-              description="Order Online for Touchles Deliveries"
+              
               backgroundImg="Cybertruck.jpg"
               leftBtnText="Custom order"
               rightBtnText="Existing inventory"/>
