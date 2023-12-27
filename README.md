@@ -146,4 +146,3 @@ This  project  is  licensed  under  the  MIT  License.
   
   
 
-Replace  the  placeholder  text (e.g., "link-to-your-screenshot-or-logo.png") with actual links, and customize sections like "Technologies,"  "Installation," and "Usage" based on the specifics of your project. This README template provides a starting point, and you can add or modify sections to suit the details of your Tesla Clone project.
