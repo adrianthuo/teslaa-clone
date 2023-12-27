@@ -64,7 +64,7 @@ Special thanks to the following individuals and resources that contributed to th
 
   
 
-![Tesla Clone Demo](link-to-gif-or-screenshot.gif)
+![Teslaa Clone Demo](link-to-gif-or-screenshot.gif)
 
   
 
@@ -92,7 +92,7 @@ Special thanks to the following individuals and resources that contributed to th
 
 ```bash
 
-git  clone  https://github.com/your-username/tesla-clone.git 
+git  clone  https://github.com/your-username/teslaa-clone.git 
 
   ```
 
@@ -100,7 +100,7 @@ git  clone  https://github.com/your-username/tesla-clone.git
 
   
 ```
-cd  tesla-clone
+cd  teslaa-clone
 ```
   
 
