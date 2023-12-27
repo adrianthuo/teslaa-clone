@@ -6,7 +6,7 @@ function Section() {
     <Wrap>
             <ItemText>
                 <h1>Model S</h1>
-                <p>Orde Online for Touchles Delivery</p>
+                <p>Order Online for Touchles Delivery</p>
             </ItemText>
          <Buttons>  
             <ButtonGroup>
@@ -32,8 +32,8 @@ const Wrap = styled.div`
     width: 100vw;
     height:100vh;
     background-position: center;
-    background-repeat: norepeat;
-    background-image: url(/images/model-s.jpg);
+    background-repeat: no-repeat; 
+    background-image: url(/images/model-3.jpg);
     display : flex;
     flex-direction : column;
     justify-content: space-between;
@@ -72,13 +72,16 @@ const LeftButton = styled.div`
 `
 
 const RightButton = styled(LeftButton)`
-
+         background: white;
+         opacity: 0.65;
+         color: black ;
 `
 
 const DownArrow = styled.img`
 
-    margin-top: 20px;
+   
     height: 40px;
+    overflow-x: hidden;
     animation: animateDown infinite 1.5s;
 
 `
