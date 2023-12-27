@@ -35,6 +35,11 @@
 
 Tesla Clone is a React-based web application that replicates the user interface and features of the Tesla website. It provides a responsive and interactive experience, showcasing Tesla car models, features, and more.
 
+## Credits
+
+Special thanks to the following individuals and resources that contributed to the development of this project:
+
+- [Clever programmer](https://youtu.be/lUeS9Wsj6dk?list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP) - Inspiration and reference for design and features. 
   
 
 ## Features
