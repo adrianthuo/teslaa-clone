@@ -1,20 +1,27 @@
 import React from 'react'
 import styled from 'styled-components'
 
-function Section() {
+
+function Section({title , description ,leftBtnText,rightBtnText,backgroundImg})  {
   return (
-    <Wrap>
+    
+    
+
+    <Wrap bgimage={backgroundImg}>
+
+        
             <ItemText>
-                <h1>Model S</h1>
-                <p>Order Online for Touchles Delivery</p>
+                <h1>{title}</h1>
+                <p>{description}</p>
+                
             </ItemText>
          <Buttons>  
             <ButtonGroup>
                 <LeftButton>
-                    Custom Order
+                    {leftBtnText}
                 </LeftButton>
                 <RightButton>
-                Existing Inventory
+                {rightBtnText}
                 </RightButton>
             </ButtonGroup>
             <DownArrow src="/images/down-arrow.svg">
@@ -22,8 +29,10 @@ function Section() {
             </DownArrow>
             </Buttons>
     </Wrap>
+    
   )
 }
+
 
 export default Section
 
@@ -31,13 +40,15 @@ const Wrap = styled.div`
 
     width: 100vw;
     height:100vh;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat; 
-    background-image: url(/images/model-3.jpg);
+    background-image: url("/images/model-3.jpg");
     display : flex;
     flex-direction : column;
     justify-content: space-between;
     align-items: center;
+    background-image: ${props => `url("/images/${props.bgimage}")`};
+    
 
 `
 const ItemText = styled.div`
@@ -52,6 +63,11 @@ const ItemText = styled.div`
 const ButtonGroup = styled.div`
      
     display: flex;
+    @media (max-width: 768px) {
+
+        flex-direction: column;
+
+    }
 
 `
 
@@ -91,3 +107,5 @@ const Buttons = styled.div`
 
 
 `
+
+
