@@ -3,7 +3,7 @@
 
   
 
-![Tesla Clone](https://cdn.freebiesupply.com/logos/large/2x/tesla-motors-logo-png-transparent.png)
+![Teslaa Clone](https://cdn.freebiesupply.com/logos/large/2x/tesla-motors-logo-png-transparent.png)
 
   
 
@@ -33,7 +33,7 @@
 
   
 
-Tesla Clone is a React-based web application that replicates the user interface and features of the Tesla website. It provides a responsive and interactive experience, showcasing Tesla car models, features, and more.
+Teslaa Clone is a React-based web application that replicates the user interface and features of the Tesla website. It provides a responsive and interactive experience, showcasing Tesla car models, features, and more.
 
 ## Credits
 
@@ -60,7 +60,7 @@ Special thanks to the following individuals and resources that contributed to th
 
   
 
-[Link to Live Demo](link-to-live-demo)
+[Link to Live Demo](#)
 
   
 
