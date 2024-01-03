@@ -116,7 +116,7 @@
 
 
       transform: ${props => props.show ? "translatex(0)" : "translateX(100%)"};
-
+      transition: transform 0.4s ease-in;
       li {
         padding: 15px 0;
         border-bottom: 1px solid rgba(0,0,0,.2);
