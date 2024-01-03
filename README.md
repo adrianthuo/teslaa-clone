@@ -3,7 +3,7 @@
 
   
 
-![Tesla Clone](link-to-your-screenshot-or-logo.png)
+![Tesla Clone](https://freebiesupply.com/logos/tesla-logo/)
 
   
 
