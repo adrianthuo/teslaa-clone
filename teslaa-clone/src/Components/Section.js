@@ -1,29 +1,34 @@
     import React from 'react'
     import styled from 'styled-components'
+    import { Fade } from 'react-reveal'
 
-
-    function Section({title , description ,leftBtnText,rightBtnText,backgroundImg})  {
+    function Section({title , description ,leftBtnText,rightBtnText,backgroundImg })  {
     return (
         
         
 
-        <Wrap bgimage={backgroundImg}>
+        <Wrap bgimage={backgroundImg} >
 
+                    <Fade bottom>
             
                 <ItemText>
                     <h1>{title}</h1>
                     <p>{description}</p>
                     
                 </ItemText>
+                </Fade>
             <Buttons>  
+            <Fade bottom>
                 <ButtonGroup>
+                <RightButton>
+                    {rightBtnText}
+                    </RightButton>
                     <LeftButton>
                         {leftBtnText}
                     </LeftButton>
-                    <RightButton>
-                    {rightBtnText}
-                    </RightButton>
+                    
                 </ButtonGroup>
+                </Fade>
                 <DownArrow src="/images/down-arrow.svg">
 
                 </DownArrow>
@@ -80,7 +85,7 @@
         display : flex;
         justify-content: center;
         align-items:center;
-        border-radius: 100px;
+        border-radius: 10px;
         opacity:0.85;
         text-transform:uppercase;
         font-size : 12px;
